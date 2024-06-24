@@ -7,7 +7,7 @@ async function bootstrap() {
 
   const documentOptions = new DocumentBuilder()
     .setTitle('REST API')
-    .setDescription('API Diego') // Corregido aquí: cerrar correctamente la cadena de descripción
+    .setDescription('Api Bikes')
     .setVersion('0.1')
     .build();
 
@@ -16,5 +16,4 @@ async function bootstrap() {
 
   await app.listen(process.env.PORT || 3000);
 }
-
-bootstrap(); // Corregido aquí: cerrar correctamente la función bootstrap
+bootstrap();
